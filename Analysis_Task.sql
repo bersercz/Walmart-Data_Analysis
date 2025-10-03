@@ -106,7 +106,7 @@ select
 	group by 1, 2
 )
 select * from city
-where rank = 
+where rank = 1
 
 
 -- 8 categorise sales into 3 groups morning, afternon, evening. Find out which of the shift and number of invoices.
