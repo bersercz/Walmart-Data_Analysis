@@ -22,7 +22,7 @@ data.unit_price.dtype
 data['total'] = data['unit_price'] * data['quantity']
 data.columns= data.columns.str.lower()
 ```
-## Trasnfer of Dataset To Postgresql
+## Transfer of Dataset To Postgresql
 ```python
 engine_psql = create_engine("postgresql+psycopg2://database-name:password@localhost:5432/folder_name")
 try:
